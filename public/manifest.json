@@ -1,0 +1,21 @@
+{
+  "name": "Dr. Ruchi Jain | Digital Business Card",
+  "short_name": "Dr. Ruchi",
+  "description": "Digital Visiting Card for Dr. Ruchi Jain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F766E",
+  "theme_color": "#0F766E",
+  "icons": [
+    {
+      "src": "/doctor-photo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/doctor-photo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
