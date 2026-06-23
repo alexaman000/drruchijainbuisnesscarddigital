@@ -19,13 +19,7 @@
   --card-bg: var(--color-card-light);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--color-background-dark);
-    --foreground: #F8FAFC;
-    --card-bg: var(--color-card-dark);
-  }
-}
+
 
 body {
   background: var(--background);
@@ -52,11 +46,7 @@ body {
   background-image: linear-gradient(to right, var(--color-secondary), var(--color-primary-light));
 }
 
-@media (prefers-color-scheme: dark) {
-  .text-gradient {
-    background-image: linear-gradient(to right, var(--color-secondary-light), var(--color-primary-light));
-  }
-}
+
 
 /* Hide scrollbar for clean look */
 ::-webkit-scrollbar {
