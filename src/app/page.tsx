@@ -113,6 +113,9 @@ export default function DigitalCard() {
  <button onClick={() => setIsQRModalOpen(true)} className="p-2 bg-white/20 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
  <QrCode size={20} />
  </button>
+ <h2 className="text-[15px] font-bold tracking-widest uppercase text-white/95 drop-shadow-sm">
+    Radiaance Dentistry
+ </h2>
  <button onClick={handleShare} className="p-2 bg-white/20 rounded-full backdrop-blur-sm hover:bg-white/30 transition">
  <Share2 size={20} />
  </button>
